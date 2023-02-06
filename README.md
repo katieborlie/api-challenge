@@ -44,9 +44,13 @@ To get started, the code required to generate random geographic coordinates and 
 *Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 
 To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
+
   -Latitude vs. Temperature
+  
   -Latitude vs. Humidity
+  
   -Latitude vs. Cloudiness
+  
   -Latitude vs. Wind Speed
 
 *Requirement 2: Compute Linear Regression for Each Relationship
@@ -56,13 +60,21 @@ Next, create a series of scatter plots. Be sure to include the linear regression
 Sample scatter plot with the linear regression line.
 
 You should create the following plots:
+
   -Northern Hemisphere: Temperature vs. Latitude
+  
   -Southern Hemisphere: Temperature vs. Latitude
+  
   -Northern Hemisphere: Humidity vs. Latitude
+  
   -Southern Hemisphere: Humidity vs. Latitude
+  
   -Northern Hemisphere: Cloudiness vs. Latitude
+  
   -Southern Hemisphere: Cloudiness vs. Latitude
+  
   -Northern Hemisphere: Wind Speed vs. Latitude
+  
   -Southern Hemisphere: Wind Speed vs. Latitude
   
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
@@ -86,5 +98,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
 
 3.) Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+
 4.) For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+
 5.) Add the hotel name and the country as additional information in the hover message for each city on the map.
