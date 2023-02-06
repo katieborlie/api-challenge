@@ -2,7 +2,7 @@
 
 -Background
 
-In this activity, I took what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
+In this activity, I took what I've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 Now, I know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, I demonstrated how I could prove that.
 
 -Before You Begin
